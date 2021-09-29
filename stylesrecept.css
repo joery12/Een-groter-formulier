@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    color:black;
+    font-family: "Times New Roman", Times, serif, "Open Sans";
+    background-color: rgb(240, 245, 150);
+}
+a{
+    font-size:16px;
+}
+
+
+.navblock{
+    border:2px solid black;
+    box-sizing:border-box;
+    border-radius:10px;
+    background-color: white;
+    padding:0.2em;
+}
+
+a.navlink{
+    text-decoration: none;
+}
+
+.menu{
+    padding-inline-start: 20px;
+}
+
+ul.menu{
+    list-style:none; 
+}
+
+ul.menu li{
+    display:inline;
+}
+
+.navtitle:active{
+    text-decoration: none;
+}
+
+.navtitle:visited{
+    text-decoration:none;
+}
+
+.navtitle:hover{
+    color:red;
+}
+
+.navtitle{
+    font-family: Times;
+    color:rgb(48, 1, 255);
+    font-size:2em;
+    font-weight:bolder;  
+    border:2px solid black;
+    box-sizing:border-box;
+    background-color: rgba(59, 59, 59, 0.432);
+    border-radius:5px; 
+    padding:0.2em;
+    margin-right:0.5em;
+    text-decoration: none;
+}
+
+
+@media (min-width: 1024px) {
+
+.figtxt{
+    padding: 1em;
+}
+
+.intro{
+    max-width: 500px;
+    font-size: 16px;
+
+}
+
+.navtitle{
+    font-size:1.5em;
+}
+
+}
